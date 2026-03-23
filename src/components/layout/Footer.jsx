@@ -61,9 +61,9 @@ const Footer = () => {
             <div className="col-span-2 md:col-span-1">
               <Link
                 to="/"
-                className="font-rockybilly text-2xl tracking-[0.15em] uppercase block mb-4"
+                className="font-rockybilly text-lg tracking-[0.15em] capitalize block mb-4"
               >
-                SKY
+                Sky
               </Link>
               <p className="text-white/40 text-sm leading-relaxed mb-6">
                 Defining modern luxury through minimal design and premium

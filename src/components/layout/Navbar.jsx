@@ -25,25 +25,16 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-50 bg-sky-black/90 backdrop-blur-xl text-white border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex items-center justify-between">
             {/* Left Group */}
             <div className="flex items-center gap-6 lg:gap-8">
-              {/* Mobile Menu Toggle */}
-              <button
-                onClick={() => setMobileOpen(!mobileOpen)}
-                className="lg:hidden p-2 hover:bg-white/20 rounded-full transition-colors"
-                aria-label="Toggle menu"
-              >
-                {mobileOpen ? <X size={20} /> : <Menu size={20} />}
-              </button>
-
               {/* Logo */}
               <Link
                 to="/"
-                className="font-rockybilly text-2xl tracking-[0.15em] uppercase"
+                className="font-rockybilly text-lg tracking-[0.15em] capitalize"
               >
-                SKY
+                Sky
               </Link>
 
               {/* Divider */}
@@ -116,6 +107,15 @@ const Navbar = () => {
                     </span>
                   )}
                 </Link>
+
+                {/* Mobile Menu Toggle */}
+                <button
+                  onClick={() => setMobileOpen(!mobileOpen)}
+                  className="lg:hidden w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-colors"
+                  aria-label="Toggle menu"
+                >
+                  {mobileOpen ? <X size={18} strokeWidth={2} /> : <Menu size={18} strokeWidth={2} />}
+                </button>
               </div>
             </div>
           </div>
@@ -138,8 +138,8 @@ const Navbar = () => {
       >
         <div className="p-6">
           <div className="flex items-center justify-between mb-10">
-            <span className="font-rockybilly text-xl tracking-[0.15em] uppercase">
-              SKY
+            <span className="font-rockybilly text-base tracking-[0.15em] capitalize">
+              Sky
             </span>
             <button
               onClick={() => setMobileOpen(false)}
