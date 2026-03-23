@@ -41,7 +41,7 @@ const Navbar = () => {
               {/* Logo */}
               <Link
                 to="/"
-                className="font-jaguar text-2xl tracking-[0.15em] uppercase"
+                className="font-rockybilly text-2xl tracking-[0.15em] uppercase"
               >
                 SKY
               </Link>
@@ -138,7 +138,7 @@ const Navbar = () => {
       >
         <div className="p-6">
           <div className="flex items-center justify-between mb-10">
-            <span className="font-jaguar text-xl tracking-[0.15em] uppercase">
+            <span className="font-rockybilly text-xl tracking-[0.15em] uppercase">
               SKY
             </span>
             <button

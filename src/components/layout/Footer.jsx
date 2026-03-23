@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="col-span-2 md:col-span-1">
               <Link
                 to="/"
-                className="font-jaguar text-2xl tracking-[0.15em] uppercase block mb-4"
+                className="font-rockybilly text-2xl tracking-[0.15em] uppercase block mb-4"
               >
                 SKY
               </Link>

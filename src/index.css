@@ -3,9 +3,18 @@
 /* ── Google Fonts: Space Grotesk ── */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
+@font-face {
+  font-family: 'Rockybilly';
+  src: url('./assets/fonts/rockybilly.regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ── Tailwind v4 Theme Configuration ── */
 @theme {
   --font-jaguar: 'Jaguar', 'Georgia', serif;
+  --font-rockybilly: 'Rockybilly', serif;
   --font-body: 'Space Grotesk', sans-serif;
 
   --color-sky-black: #0a0a0a;
